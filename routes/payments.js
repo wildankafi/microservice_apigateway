@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var {APP_NAME} = process.env;
+var {API_PAYMENT} = process.env;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send(APP_NAME);
+  res.send(API_PAYMENT);
 });
 
 module.exports = router;
